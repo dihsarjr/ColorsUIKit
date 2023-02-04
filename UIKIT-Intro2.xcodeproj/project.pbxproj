@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		4C17041A298C30160035611C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C170419298C30160035611C /* AppDelegate.swift */; };
 		4C17041C298C30160035611C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C17041B298C30160035611C /* SceneDelegate.swift */; };
-		4C17041E298C30160035611C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C17041D298C30160035611C /* ViewController.swift */; };
 		4C170421298C30160035611C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C17041F298C30160035611C /* Main.storyboard */; };
 		4C170423298C30170035611C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C170422298C30170035611C /* Assets.xcassets */; };
 		4C170426298C30170035611C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C170424298C30170035611C /* LaunchScreen.storyboard */; };
+		4C17042E298C30F80035611C /* ColorsTableVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C17042D298C30F80035611C /* ColorsTableVCViewController.swift */; };
+		4C170430298C32570035611C /* ColorsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C17042F298C32570035611C /* ColorsDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C170416298C30160035611C /* UIKIT-Intro2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKIT-Intro2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C170419298C30160035611C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C17041B298C30160035611C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C17041D298C30160035611C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C170420298C30160035611C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C170422298C30170035611C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C170425298C30170035611C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C170427298C30170035611C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C17042D298C30F80035611C /* ColorsTableVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVCViewController.swift; sourceTree = "<group>"; };
+		4C17042F298C32570035611C /* ColorsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				4C170419298C30160035611C /* AppDelegate.swift */,
 				4C17041B298C30160035611C /* SceneDelegate.swift */,
-				4C17041D298C30160035611C /* ViewController.swift */,
+				4C17042F298C32570035611C /* ColorsDetailsVC.swift */,
+				4C17042D298C30F80035611C /* ColorsTableVCViewController.swift */,
 				4C17041F298C30160035611C /* Main.storyboard */,
 				4C170422298C30170035611C /* Assets.xcassets */,
 				4C170424298C30170035611C /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C17041E298C30160035611C /* ViewController.swift in Sources */,
 				4C17041A298C30160035611C /* AppDelegate.swift in Sources */,
+				4C170430298C32570035611C /* ColorsDetailsVC.swift in Sources */,
+				4C17042E298C30F80035611C /* ColorsTableVCViewController.swift in Sources */,
 				4C17041C298C30160035611C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
