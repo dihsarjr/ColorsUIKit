@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qRy-Oj-5Cs">
-                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ColorCell" id="arE-Jb-VgB">
@@ -38,10 +38,10 @@
                         <viewLayoutGuide key="safeArea" id="R8A-Yg-W2H"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="R8A-Yg-W2H" firstAttribute="bottom" secondItem="qRy-Oj-5Cs" secondAttribute="bottom" id="BQ9-Be-Jgv"/>
                             <constraint firstItem="qRy-Oj-5Cs" firstAttribute="leading" secondItem="R8A-Yg-W2H" secondAttribute="leading" id="M6x-vG-ms6"/>
                             <constraint firstItem="R8A-Yg-W2H" firstAttribute="trailing" secondItem="qRy-Oj-5Cs" secondAttribute="trailing" id="ObL-iB-se0"/>
                             <constraint firstItem="qRy-Oj-5Cs" firstAttribute="top" secondItem="R8A-Yg-W2H" secondAttribute="top" id="RpT-5C-Mtb"/>
+                            <constraint firstAttribute="bottom" secondItem="qRy-Oj-5Cs" secondAttribute="bottom" id="uvC-XE-WYw"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="COLORS" largeTitleDisplayMode="always" id="dbf-gI-z57"/>
@@ -77,7 +77,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="8db-Dt-HTo">
                         <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
